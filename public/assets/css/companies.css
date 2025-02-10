@@ -1,0 +1,140 @@
+.company-card {
+    
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    transition: transform 0.3s;
+    flex-direction: row;
+}
+.team-item .content .rating-box {
+    color: #ff9600!important;
+    
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+  
+    margin-bottom: 9px;
+}
+.icofont-star:before {
+    content: "\f000" !important;
+}
+
+.rating-box i.icofont-star {
+    color: #ff9600; /* Makes all stars yellow */
+}
+
+
+.icofont-star:before {
+    content: "\f000";
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.company-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Left section for logo, rating, and address */
+.company-left {
+    background-color: #f1f1f1;
+    padding: 15px;
+    text-align: center;
+    flex: 1;
+}
+
+.company-logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.company-rating {
+    font-size: 0.9rem;
+    color: #ffc107;
+    margin: 5px 0;
+}
+
+.company-address {
+    font-size: 0.85rem;
+    color: #6c757d;
+    margin-bottom: 5px;
+}
+
+.company-country {
+    font-size: 0.85rem;
+    color: #03a84e;
+    font-weight: bold;
+}
+
+/* Right section for main content */
+.company-right {
+    padding: 15px;
+    flex: 2;
+}
+
+.company-title {
+    font-size: 1.25rem;
+    margin: 0;
+    color: #03a84e;
+}
+
+.company-description {
+    font-size: 0.95rem;
+    margin: 10px 0;
+}
+i.fas.fa-map-marker-alt {
+    color: grey !important; /* Forces the icon color to gray */
+}
+
+.company-actions a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    background-color: #03a84e;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+.company-actions a:hover {
+    background-color: #fff; /* White background */
+    color: #03a84e; /* Green text */
+    border: 1px solid #03a84e; /* Green border */
+}
+.company-country i {
+    color: gray !important; /* Ensures the location icon is gray */
+}
+/*.category {
+    font-weight: bold;
+    font-size: 14px;
+    color: #007bff; /* Adjust as needed */
+   /* text-transform: uppercase;
+}*/
+.category {
+    font-weight: bold;
+    font-size: 14px;
+    color: grey; /* Adjust as needed */
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 30px;
+}
+
+.list-unstyled {
+    padding: 0;
+    margin: 0;
+    
+}
