@@ -39,6 +39,10 @@ Route::get('/contact' ,  function(){
     return view('frontend.contact');
 })->name('contact');
 
+Route::get('/pricing' ,  function(){
+    return view('frontend.pricing');
+})->name('pricing');
+
 
 
 

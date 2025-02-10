@@ -3916,7 +3916,13 @@ table p {
 #contact-form .form-group {
   margin-bottom: 10px;
 }
+.form-control:hover{
+  border: 1px solid green!important;
+  
+}
+
 #contact-form .form-control {
+  
   border: 1px solid #eef0f5;
   border-radius: 5px;
   -webkit-box-shadow: none;
@@ -3931,6 +3937,7 @@ table p {
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
 }
+
 @media only screen and (max-width: 1199px) {
   #contact-form .form-control {
     height: 45px;
@@ -3956,6 +3963,7 @@ table p {
 #contact-form .form-control:active, #contact-form .form-control:focus {
   border-color: #03a84e;
 }
+
 #contact-form textarea.form-control {
   height: 220px;
   padding-top: 15px;

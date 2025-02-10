@@ -39,6 +39,88 @@
                 </div>
             </div>
             <!--== End Page Header Area Wrapper ==-->
+            <section class="filtering-data">         
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div >
+                    <div class="job-search-form">
+                        <form action="#">
+                            <div class="row g-3">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Job title or keywords">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option selected>Choose City</option>
+                                            <option>New York</option>
+                                            <option>California</option>
+                                            <option>Illinois</option>
+                                            <option>Texas</option>
+                                            <option>Florida</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option selected>Category</option>
+                                            <option>Web Designer</option>
+                                            <option>Web Developer</option>
+                                            <option>Graphic Designer</option>
+                                            <option>App Developer</option>
+                                            <option>UI & UX Expert</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option selected>Salary</option>
+                                            <option>50,000</option>
+                                            <option>100,000</option>
+                                            <option>3,000,000</option>
+                                            <option>80,000,000</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option selected>Skills</option>
+                                            <option>Web Designer</option>
+                                            <option>Web Developer</option>
+                                            <option>Graphic Designer</option>
+                                            <option>App Developer</option>
+                                            <option>UI & UX Expert</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option selected>Job Type</option>
+                                            <option>Full-Time</option>
+                                            <option>Part-Time</option>
+                                            <option>Freelance</option>
+                                            <option>Remote</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-success" ><i class="icofont-search-1"></i> </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
             <!--== Start Team Area Wrapper ==-->
             <section class="team-area team-inner2-area">

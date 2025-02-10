@@ -1,0 +1,105 @@
+
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f8f9fa;
+        }
+        
+        .pricing-section {
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        .pricing-header {
+            color: #03a84e;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .pricing-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+            transition: 0.3s ease-in-out;
+            border: 2px solid #fff;
+            position: relative;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-5px);
+            border-color: #03a84e;
+            box-shadow: 0px 10px 25px rgba(3, 168, 78, 0.2);
+        }
+
+        .pricing-card.featured {
+            background-color: #03a84e;
+            color: white;
+            border-color: #028c40;
+        }
+
+        .pricing-card h3 {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .pricing-card .price {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .pricing-card p {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .pricing-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .pricing-card ul li {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .pricing-card ul li i {
+            color: #03a84e;
+            margin-right: 8px;
+        }
+
+        .pricing-card.featured ul li i {
+            color: white;
+        }
+
+        .btn-subscribe {
+            background-color: #03a84e;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: 0.3s;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+
+        .btn-subscribe:hover {
+            background-color: #028c40;
+            color: white;
+        }
+
+        .pricing-card.featured .btn-subscribe {
+            background-color: white;
+            color: #03a84e;
+        }
+
+        .pricing-card.featured .btn-subscribe:hover {
+            background-color: #f2f2f2;
+            color: #028c40;
+        }
