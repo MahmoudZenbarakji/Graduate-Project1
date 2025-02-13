@@ -103,8 +103,8 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-12 text-center">
-                                    <button type="submit" class="btn btn-success" ><i class="icofont-search-1"></i> </button>
+                                <div class="col-12 d-flex justify-content-center ">
+                                        <button type="button" class="btn btn-success btn-form-search"><i class="icofont-search-1"></i></button>
                                 </div>
                             </div>
                         </form>

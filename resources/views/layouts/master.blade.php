@@ -37,7 +37,7 @@
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" />
 
     <link  href="{{ asset('assets/css/companies.css') }}"  rel="stylesheet" />
-    <link rel="stylesheet" href="{{ asset('assets/css/pricingcard.css') }}">
+    <link  href="{{ asset('assets/css/pricingcard.css') }}" rel="stylesheet" />
 
 
     <!--

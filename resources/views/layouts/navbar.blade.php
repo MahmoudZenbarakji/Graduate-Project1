@@ -29,10 +29,12 @@
 
 
                                     <li><a href="{{ route('contact') }}"><span>Contact</span></a></li>
-                                    <li><a href="{{ route('pricing') }}"><span>Picing</span></a></li>
+                                    
                                     <li class="has-submenu"><a href=""><span>Arabic
                                                 </span></a>
                                     </li>
+
+                                    <li><a href="{{ route('pricing') }}"><span>Picing</span></a></li>
                                 </ul>
                             </div>
                         </div>

@@ -1,12 +1,29 @@
 @extends('layouts.master')
 
-
     @section('title', 'Pricing')
 
-
         @section('content')
-
-        <section class="pricing-section">
+        <header>
+        <div class="page-header-area sec-overlay sec-overlay-black" data-bg-img="assets/img/photos/bg2.jpg">
+            <div class="container pt--0 pb--0">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="page-header-content">
+                            <h2 class="title">Pricing Details</h2>
+                            <nav class="breadcrumb-area">
+                                <ul class="breadcrumb justify-content-center">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li class="breadcrumb-sep">//</li>
+                                    <li>pricing</li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+   <section class="pricing-section">
     <div class="container">
         <h2 class="pricing-header">Choose Your Subscription Plan</h2>
         <p>Find the perfect plan that fits your needs and budget.</p>
@@ -43,20 +60,15 @@
             </div>
         </div>
     </div>
-</section>
+        </section>
 
+         @endsection
 
-
-        
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-            <!-- Include Font Awesome JS -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
-        
-
-
-    @endsection
-
-
+            @section('addon_js')
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+                    <!-- Include Font Awesome JS -->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+            @endsection
 
 
 

@@ -847,6 +847,7 @@ table p {
     display: none;
   }
 }
+
 .header-navigation-area .main-menu.nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -4001,7 +4002,7 @@ table p {
 .job-search-form .form-control {
   background-color: #fff;
   border-radius: 5px;
-  border: none;
+  border: sold gray;
   -webkit-box-shadow: none;
           box-shadow: none;
   color: #656565;
@@ -4009,7 +4010,7 @@ table p {
   font-size: 15px;
   height: 68px;
   outline: none;
-  margin: 0;
+  margin: 5px;
   padding: 1px 46px 0 32px;
   width: 300px;
 }
